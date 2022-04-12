@@ -31,6 +31,12 @@ footer, header, hgroup, menu, nav, section {
 
 
 /* added by me */
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 div.inner {
 	max-width: 60vw;
 }
@@ -39,6 +45,11 @@ div.inner {
 	width: 30px;
 }
 
+.social {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+}
 /* added by me ^^^^ */
 
 body {
