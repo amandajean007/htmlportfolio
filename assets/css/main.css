@@ -31,6 +31,12 @@ footer, header, hgroup, menu, nav, section {
 
 
 /* added by me */
+.cen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -39,14 +45,18 @@ footer, header, hgroup, menu, nav, section {
 
 div.inner {
 	max-width: 60vw;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .icon {
 	width: 30px;
 }
 
-#portrait {
+#photo {
+	border-radius: 100%;
+	height: 300px;
 	width: 300px;
+	padding: 20px;
 }
 
 .social {
@@ -182,6 +192,7 @@ input, select, textarea {
 		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.5); */
 		text-decoration: none;
 		color: inherit;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 		a:hover {
@@ -199,6 +210,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -206,8 +218,9 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		letter-spacing: 0.2rem;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -665,7 +678,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
+		border-radius: 100%;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -1185,7 +1198,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/yellow.jpg");
+			background-image: url("../../images/beach.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
