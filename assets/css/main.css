@@ -1297,7 +1297,7 @@ input, select, textarea {
 		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: radial-gradient(rgba(0, 0, 0, 0.068) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1319,7 +1319,7 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				/* background: #ffffff; */
 			}
 
 		#header > :first-child {
@@ -1416,19 +1416,19 @@ input, select, textarea {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#header nav.use-middle:after {
+		/* #header nav.use-middle:after {
 			content: '';
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
+			left: 10;
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
-		}
+		} */
 
 		#header nav.use-middle ul li.is-middle {
-			border-left: 0;
+			border-left: 1px #ffffff solid;
 		}
 
 		body.is-article-visible #header {
